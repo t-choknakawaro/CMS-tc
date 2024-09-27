@@ -48,14 +48,22 @@ Template: astra
 .site-footer {
     background-color: #ffc709 !important;
     text-align: center !important;
+    padding: 30px 0 !important;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1) !important;
+    font-size: 16px !important;
 }
 
 .site-footer a {
     color: #004ea2 !important;
+    font-weight: bold !important;
 }
 
 .site-footer a:hover {
     color: #ffffff !important;
+}
+
+.site-footer {
+    border-top: 8px solid #004ea2 !important;
 }
 
 
