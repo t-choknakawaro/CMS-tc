@@ -13,13 +13,13 @@ Template: astra
 }
 
 .site-header a, .ast-primary-header a, .ast-mobile-header a, .ast-site-identity a {
-    color: #ffffff !important;
+    color: #ffc709 !important;
     text-transform: uppercase !important;
     font-weight: bold !important;
 }
 
 .site-header a:hover, .ast-primary-header a:hover, .ast-mobile-header a:hover, .ast-site-identity a:hover {
-    color: #ffc709 !important;
+    color: #000000 !important;
     letter-spacing: 0.5px !important;
 }
 
