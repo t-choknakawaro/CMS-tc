@@ -5,6 +5,7 @@ Template: astra
 
 
 /* header */
+
 .site-header, .ast-primary-header, .ast-mobile-header, .ast-main-header-bar {
     background-color: #004ea2 !important;
 }
@@ -17,7 +18,9 @@ Template: astra
     color: #ffc709 !important;
 }
 
+
 /* button */
+
 .wp-block-button__link {
     background-color: #004ea2 !important;
     color: #ffc709 !important;
@@ -29,3 +32,19 @@ Template: astra
     background-color: #ffc709 !important;
     color: #004ea2 !important;
 }
+
+
+/* footer */
+.site-footer {
+    background-color: #ffc709 !important;
+    text-align: center !important;
+}
+
+.site-footer a {
+    color: #004ea2 !important;
+}
+
+.site-footer a:hover {
+    color: #ffffff !important;
+}
+
