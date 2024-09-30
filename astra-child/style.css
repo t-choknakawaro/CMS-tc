@@ -3,17 +3,29 @@ Theme Name: Astra Child
 Template: astra
 */
 
+
+/* header */
 .site-header, .ast-primary-header, .ast-mobile-header, .ast-main-header-bar {
-    background-color: #004ea2 !important; /* Blue background */
-    color: #ffffff !important; /* White text */
+    background-color: #004ea2 !important;
 }
 
-/* Ensure links in the header are white */
 .site-header a, .ast-primary-header a, .ast-mobile-header a, .ast-site-identity a {
-    color: #ffffff !important; /* White links */
+    color: #ffffff !important;
 }
 
-/* Hover effect for header links */
 .site-header a:hover, .ast-primary-header a:hover, .ast-mobile-header a:hover, .ast-site-identity a:hover {
-    color: #ffc709 !important; /* Yellow hover color */
+    color: #ffc709 !important;
+}
+
+/* button */
+.wp-block-button__link {
+    background-color: #004ea2 !important;
+    color: #ffc709 !important;
+    border-radius: 30px !important;
+    padding: 15px 25px !important;
+}
+
+.wp-block-button__link:hover {
+    background-color: #ffc709 !important;
+    color: #004ea2 !important;
 }
