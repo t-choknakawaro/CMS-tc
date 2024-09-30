@@ -2,3 +2,18 @@
 Theme Name: Astra Child
 Template: astra
 */
+
+.site-header, .ast-primary-header, .ast-mobile-header, .ast-main-header-bar {
+    background-color: #004ea2 !important; /* Blue background */
+    color: #ffffff !important; /* White text */
+}
+
+/* Ensure links in the header are white */
+.site-header a, .ast-primary-header a, .ast-mobile-header a, .ast-site-identity a {
+    color: #ffffff !important; /* White links */
+}
+
+/* Hover effect for header links */
+.site-header a:hover, .ast-primary-header a:hover, .ast-mobile-header a:hover, .ast-site-identity a:hover {
+    color: #ffc709 !important; /* Yellow hover color */
+}
