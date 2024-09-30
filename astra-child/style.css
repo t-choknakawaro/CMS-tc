@@ -8,14 +8,19 @@ Template: astra
 
 .site-header, .ast-primary-header, .ast-mobile-header, .ast-main-header-bar {
     background-color: #004ea2 !important;
+    padding: 8px 0 !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
 }
 
 .site-header a, .ast-primary-header a, .ast-mobile-header a, .ast-site-identity a {
     color: #ffffff !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
 }
 
 .site-header a:hover, .ast-primary-header a:hover, .ast-mobile-header a:hover, .ast-site-identity a:hover {
     color: #ffc709 !important;
+    letter-spacing: 0.5px !important;
 }
 
 
@@ -35,6 +40,7 @@ Template: astra
 
 
 /* footer */
+
 .site-footer {
     background-color: #ffc709 !important;
     text-align: center !important;
