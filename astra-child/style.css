@@ -74,9 +74,15 @@ body {
     font-size: 18px !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
     font-family: 'Verdana', sans-serif !important;
     color: #ffc709 !important;
+    font-weight: bold !important;
+}
+
+h2 {
+    font-family: 'Verdana', sans-serif !important;
+    color: #004ea2 !important;
     font-weight: bold !important;
 }
 
