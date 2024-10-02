@@ -21,19 +21,12 @@ The CMS-tc theme is a custom child theme built on top of the Astra parent theme.
    - Example CSS snippet to change header color:
      ```css
      .site-header {
-       background-color: #004ea2;
+       background-color: #004ea2 !important;
      }
      ```
    
 2. **Adding PHP Functionality**:
-   - If you need to add custom functionality (e.g., enqueueing new scripts or adding custom functions), update the `functions.php` file.
-   - Example PHP snippet to enqueue a new script:
-     ```php
-     function custom_enqueue_script() {
-       wp_enqueue_script( 'my-script', get_stylesheet_directory_uri() . '/js/custom.js', array(), '1.0.0', true );
-     }
-     add_action( 'wp_enqueue_scripts', 'custom_enqueue_script' );
-     ```
+   - If you need to add custom functionality (e.g., enqueueing new scripts or adding custom functions), update the functions.php file as needed.
 
 ### Local Development:
 1. Set up a local WordPress development environment (Vagrant or Docker).
@@ -65,6 +58,6 @@ The repository is configured to automatically deploy changes to Azure using GitH
 
 ### GitHub Actions Workflow
 The deployment is handled by a GitHub Actions YAML file located at .github/workflows/main_troy-wp.yml in the repository. This file is configured to:
-	1. Trigger: On any push to the main branch.
-	2. Build: Pulls the latest changes from GitHub, installs dependencies, and prepares the theme for deployment.
-	3. Deploy: Uses the Azure Web App Deploy action to push the theme to Azure.
+1. Trigger: On any push to the main branch.
+2. Build: Pulls the latest changes from GitHub, installs dependencies, and prepares the theme for deployment.
+3. Deploy: Uses the Azure Web App Deploy action to push the theme to Azure.
